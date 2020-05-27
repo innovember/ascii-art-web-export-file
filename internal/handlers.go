@@ -3,7 +3,6 @@ package internal
 import (
 	"bytes"
 	"html/template"
-	//"io/ioutil"
 	"net/http"
 	"strconv"
 	"time"
@@ -87,5 +86,4 @@ func indexPagePostHandler(w http.ResponseWriter, req *http.Request) {
 		http.Error(w, "Go back to the main page", 500)
 		return
 	}
-
 }
